@@ -1,2 +1,40 @@
-# How to intsall AWSCLI on MacOS
+How to Install AWS CLI on MacOS via homebrew:
+  
+Once you have Homebrew set up, installing AWS CLI is a breeze. Follow these simple steps:
+
+1.	Open Terminal
+
+This could be your local terminal (the one which came originally on machine) or from a virtual machine or application installed on your machine (e.g., I use Visual Studio Code or Azure terminal sometimes).
+
+2.	 Update Homebrew
+ 
+Before installing any packages, it’s a good practice to update Homebrew to ensure you get the latest versions of packages.
+
+Run the following command:
+
+brew update
+
+3.	 Install AWS CLI
+
+Now, it’s time to install AWS CLI. You can do this with a single command:
+
+brew install awscli
+
+Homebrew will download and install the AWS CLI and its dependencies automatically.
+
+4.	Verify the Installation
+
+Run this command.
+
+aws --version
+
+This command should display the installed AWS CLI version, confirming a successful installation.
+
+5.	 Configuring AWS CLI
+   
+Before you can start using AWS CLI, you need to configure it with your AWS credentials. This includes your AWS Access Key ID, Secret Access Key, default region, and output format. 
+
+Run the following command:
+
+aws configure
 
